@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #a7c5c5;
+    font-family: 'Lato', sans-serif;
+    height: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7rem;
+}
+
+.intro-image, .packaging-image, .tutorials-image {
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.heading-solid {
+    text-transform: uppercase;
+}
+
+
+.intro-image {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+    background-image: url('../img/candle.jpeg');
+    height: 60vh;
+}
+
+.packaging-image {
+    clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
+    background-image: url('../img/packaging.jpeg');
+    height: 60vh;
+}
+
+.tutorials-image {
+    clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 100%);
+    background-image: url('../img/fragrence.webp');
+    height: 60vh;
+}
+
+
+.intro-image__text, .packaging-image__text, .tutorials-image__text {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 27px;
+    letter-spacing: 8px;
+}
+
+.btn {
+    display: inline-block;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-size: 27px;
+    text-transform: uppercase;
+    background-color: darkslategray;
+    padding: 15px;
+}
+
+.btn:hover {
+    transition: 0.5s;
+    transform: scale(1.15);
+}
+
+<<<<<<< HEAD
+.intro-text__textbox, .packaging_text__textbox {
+=======
+h3{
+    text-transform: uppercase;
+    font-size: 27px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.footer{
+>>>>>>> 39965e421bab0ea56e0e7cc0eb166066208afefb
+    text-align: center;
+    padding: 5rem;
+}
+
+<<<<<<< HEAD
+.contact ul {
+=======
+.wrapper {
+>>>>>>> 39965e421bab0ea56e0e7cc0eb166066208afefb
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact li {
+    display: inline-block;
+    margin: 1rem;
+}
+
+
+.wrapper i {
+    margin-right: 1rem;
+}
+
+.wrapper a {
+    text-decoration: none;
+    color: var(--text);
+}
+
+.wrapper:hover {
+<<<<<<< HEAD
+    transform: scale(1.10);
+}
+
+.copyright {
+    text-align: center;
+    margin: 2rem;
+=======
+    transform: scale(1.20);
+}
+
+.copyright {
+    margin: 3rem;
+>>>>>>> 39965e421bab0ea56e0e7cc0eb166066208afefb
+}
